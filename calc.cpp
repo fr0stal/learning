@@ -9,33 +9,33 @@ int main () {
 
     std::cout << "Skaiciuotuvas\n";
 
-    std::cout << "enter one of these (+ - * /): ";
+    std::cout << "Iveskite operatoriu (+ - * /): ";
     std::cin >> op;
 
-    std::cout << "Enter #1; ";
+    std::cout << "Iveskite 1 skaiciu: ";
     std::cin >> num1;
 
-    std::cout << "Enter #2; ";
+    std::cout << "Iveskite 2 skaiciu: ";
     std::cin >> num2;
 
     switch (op) {
         case '+':
             result = num1 + num2;
-            std::cout << "result: " << result << '\n';
+            std::cout << "Rezultatas: " << result << '\n';
             break;
         case '-':
             result = num1 - num2;
-            std::cout << "result: " << result << '\n';
+            std::cout << "Rezultatas: " << result << '\n';
             break;
         case '*':
             result = num1 * num2;
-            std::cout << "result: " << result << '\n';
+            std::cout << "Rezultatas: " << result << '\n';
             break;
         case '/':
             result = num1 / num2;
-            std::cout << "result: " << result << '\n';
+            std::cout << "Rezultatas: " << result << '\n';
         default:
-            std::cout << "enter a valid operation.";
+            std::cout << "Iveskite tinkama operatoriu.";
             return 0;
     }
 }
